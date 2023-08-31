@@ -16,7 +16,7 @@ To develop a simple webserver to serve html programming pages.
 
 ## PROGRAM:
 
-### SERVER SIDE
+### CLIENT SIDE
 ```python
 import socket
 HOST = "127.0.0.1"  # The server's hostname or IP address
@@ -29,7 +29,7 @@ print(f"Received {data!r}")
 
 ```
 
-### CLIENT SIDE 
+### SERVER SIDE 
 ```python
 import socket
 HOST = "127.0.0.1"  # Standard loopback interface address (localhost)
